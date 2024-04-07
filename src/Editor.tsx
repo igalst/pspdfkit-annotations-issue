@@ -55,7 +55,7 @@ const Editor: FC<EditorProps> = ({
           baseUrl: `${window.location.protocol}//${window.location.host}/`,
           container,
           document: documentUrl,
-          // instantJSON: withInstantJsonEnvelop(annotations),
+          instantJSON: withInstantJsonEnvelop(annotations),
         }),
       );
     })();
